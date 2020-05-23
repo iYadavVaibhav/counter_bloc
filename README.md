@@ -1,4 +1,4 @@
-This flutter app is demonstrates BLoC library and Flutter_Bloc library. It shows very simple example of counter app implemented using bloc state architecture pattern.
+Hello! This flutter app demonstrates BLoC library and Flutter_Bloc library. It shows very simple example of counter app implemented using bloc state architecture pattern.
 
 The workflow of the Counter App:
 - add packages
@@ -14,6 +14,6 @@ The workflow of the Counter App:
 - body will be `BlocBuilder<CounterBloc, int>();` to build UI based on state.
 - action event, `onPressed: () {counterBloc.add(CounterEvent.increment);}`
 
-This development was based on [this](https://bloclibrary.dev/#/fluttercountertutorial?id=counter-app) tutorial.
+The Counter_Bloc app is developed based on [Flutter Counter App tutorial](https://bloclibrary.dev/#/fluttercountertutorial?id=counter-app) by @felangel.
 
 Thank you.
